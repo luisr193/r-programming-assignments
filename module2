@@ -1,0 +1,18 @@
+#data used
+> assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+#original Incorrect function 
+> myMean <- function(assignment2) {
++   return(sum(assignment) / length(someData))
++ }
+#results 
+> myMean(assignment2)
+Error in myMean(assignment2) : object 'assignment' not found
+summary: the first verison myMean failed duee to incorrect variable naming 
+#correct function
+> myMean <- function(assignment2) {
++   return(sum(assignment2) / length(assignment2))
++ }
+> myMean(assignment2)
+[1] 19.25
+Results after fixing the R functions so match the defined parameters at last the function run 
+correctly.
